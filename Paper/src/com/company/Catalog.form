@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.Catalog">
+  <grid id="27dc6" binding="panel3" layout-manager="GridLayoutManager" row-count="11" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="662" height="260"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="4340d">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="926e8" class="javax.swing.JLabel" binding="dunderMifflinLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Rage Italic" size="24" style="0"/>
+          <text value="Dunder-Mifflin Paper Co. Ordering System"/>
+        </properties>
+      </component>
+      <vspacer id="55514">
+        <constraints>
+          <grid row="1" column="2" row-span="3" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="8bdff" class="javax.swing.JLabel" binding="pic1">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Californian FB" size="12" style="0"/>
+          <text value="Please, type the right name and the exact word then press enter on the &quot;Type&quot; field!"/>
+        </properties>
+      </component>
+      <component id="a0edc" class="javax.swing.JComboBox" binding="productbox">
+        <constraints>
+          <grid row="5" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Californian FB" size="12" style="0"/>
+          <model>
+            <item value="Paper"/>
+            <item value="Printer"/>
+            <item value="Scanner"/>
+            <item value="Pencil"/>
+            <item value="Sticky-Notes"/>
+            <item value="Pen"/>
+            <item value="Stapler"/>
+            <item value="Cartridge"/>
+            <item value="Highlighter"/>
+            <item value="Eraser"/>
+            <item value="Correction"/>
+          </model>
+        </properties>
+      </component>
+      <component id="8ff06" class="javax.swing.JLabel" binding="catalogue">
+        <constraints>
+          <grid row="3" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="4" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5433344"/>
+          <font name="Californian FB" size="12" style="0"/>
+          <text value="Catalogue"/>
+        </properties>
+      </component>
+      <scrollpane id="321ee">
+        <constraints>
+          <grid row="4" column="1" row-span="5" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="fadcd" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="6f0f" class="javax.swing.JLabel" binding="motto">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="10" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="EngraversGothic BT" size="12" style="2"/>
+          <text value="&quot;Limitless Paper In The Paperless World&quot;"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
